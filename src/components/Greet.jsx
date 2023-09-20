@@ -1,6 +1,7 @@
 import React from 'react'
 //used rfce here
 // function Greet(props) {
+//   console.log(props.firstName);
 //   return (
 //     <div>
 //         <h1>
@@ -11,7 +12,7 @@ import React from 'react'
 // }
 
 // export default Greet
-
+//general
 // const Greet = (props) => {
 //   return (
 //     <div>
@@ -21,8 +22,13 @@ import React from 'react'
 //     </div>
 //   )
 // }
+
+
 const Greet = ({firstName,lastName}) => {
+  firstName="Mahadev";
+  console.log(firstName);
   return (
+    
     <div>
       <h1>
          Greet ,This is the Functional Component - {firstName} - {lastName} 
