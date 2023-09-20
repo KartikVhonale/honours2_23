@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import one from './components/one.png'
 import './App.css';
 import React from 'react';
 import Form from './components/Form';
@@ -17,9 +18,13 @@ function App() {
     // )
 
     <div className="App">
-      <Greet firstName="Kartik" lastName="Vhonale"/>
+      <Greet ename="Kartik" eage="19"emid={100}  eimg={logo}/>
+      <Greet ename="Sujal" eage={19} emid={141} eimg={one}/>
+      <Greet ename="Pratham"  emid={177} eimg={logo}/>
+      <Greet eage={22}  eimg={one}/>
+      {/* <Greet firstName="Kartik" lastName="Vhonale"/>
       <Greet firstName="Sujal" lastName="Agrawal"/>
-      <Greet firstName="Pratham" lastName="Shrivastava"/>
+      <Greet firstName="Pratham" lastName="Shrivastava"/> */}
       {/* <Welcome/> */}
       {/* <Header/>
       <Form/> */}

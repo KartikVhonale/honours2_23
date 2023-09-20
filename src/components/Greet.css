@@ -1,0 +1,23 @@
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    position: relative;
+    width: 33rem;
+    height: 10rem;
+    border-collapse: collapse; 
+    margin: 2.5rem;  
+}
+td{
+    width: 10rem;
+    height: auto;
+    border:solid 3px solid;
+}
+h4{
+    position: relative;
+}
+img{
+    height: 4rem;
+}
