@@ -5,6 +5,7 @@ import React from 'react';
 import Form from './components/Form';
 import Welcome from './components/Welcome';
 import Greet from './components/Greet';
+import Register from './components/Register';
 // import Greet from './components/Greet';
 // import Hello from './components/Hello';
 const element=React.createElement('h1',{className:'h1',id:'hello'},'Hello World')
@@ -18,10 +19,13 @@ function App() {
     // )
 
     <div className="App">
-      <Greet ename="Kartik" eage="19"emid={100}  eimg={logo}/>
-      <Greet ename="Sujal" eage={19} emid={141} eimg={one}/>
-      <Greet ename="Pratham"  emid={177} eimg={logo}/>
-      <Greet eage={22}  eimg={one}/>
+      <Welcome names="Kartik" lastnames="Vhonale"/>
+      <Welcome names="Sumit" lastnames="Choudhari"/>
+      <Welcome names="Pratham" lastnames="Shrivastava"/>
+      {/* <Register ename="Kartik" eage="19"emid={100}  eimg={logo}/>
+      <Register ename="Sujal" eage={19} emid={141} eimg={one}/>
+      <Register ename="Pratham"  emid={177} eimg={logo}/>
+      <Register/> */}
       {/* <Greet firstName="Kartik" lastName="Vhonale"/>
       <Greet firstName="Sujal" lastName="Agrawal"/>
       <Greet firstName="Pratham" lastName="Shrivastava"/> */}
