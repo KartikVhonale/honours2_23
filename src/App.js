@@ -6,6 +6,13 @@ import Form from './components/Form';
 import Welcome from './components/Welcome';
 import Greet from './components/Greet';
 import Register from './components/Register';
+import NameList from './components/NameList';
+import PostList from './components/PostList';
+import HookCouneter3 from './components/HookCouneter3';
+import Counter4 from './components/Counter4';
+import Form2 from './components/Form2';
+import Contact from './components/Contact';
+import About from './components/About';
 // import Greet from './components/Greet';
 // import Hello from './components/Hello';
 const element=React.createElement('h1',{className:'h1',id:'hello'},'Hello World')
@@ -19,9 +26,16 @@ function App() {
     // )
 
     <div className="App">
-      <Welcome names="Kartik" lastnames="Vhonale"/>
+      <About/>
+       {/* <Contact check={true}/> */}
+      {/* <Form2/> */}
+      {/* <Counter4/> */}
+      {/* <HookCouneter3/> */}
+      {/* <PostList/> */}
+      {/* <NameList/> */}
+      {/* <Welcome names="Kartik" lastnames="Vhonale"/>
       <Welcome names="Sumit" lastnames="Choudhari"/>
-      <Welcome names="Pratham" lastnames="Shrivastava"/>
+      <Welcome names="Pratham" lastnames="Shrivastava"/> */}
       {/* <Register ename="Kartik" eage="19"emid={100}  eimg={logo}/>
       <Register ename="Sujal" eage={19} emid={141} eimg={one}/>
       <Register ename="Pratham"  emid={177} eimg={logo}/>
