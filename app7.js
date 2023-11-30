@@ -46,5 +46,5 @@ fs.readFile('new.html',(err,data)=>{
 }); 
 console.log("non-blocking code 2");
 
-//append date in both the files
+//append date in text file
 
